@@ -1,0 +1,62 @@
+{
+  "name": "trading",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_OPTIONS=--disable-warning=DEP0155 react-native start --port 9001",
+    "web": "rspack serve -c rspack.web.config.mjs",
+    "web:build": "rspack build -c rspack.web.config.mjs",
+    "test": "echo \"no tests in trading\"",
+    "lint": "eslint .",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@legendapp/list": "catalog:",
+    "@module-federation/enhanced": "catalog:",
+    "@react-navigation/native": "catalog:",
+    "@react-navigation/native-stack": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "react-native-safe-area-context": "catalog:",
+    "react-native-screens": "catalog:",
+    "react-router-dom": "catalog:"
+  },
+  "peerDependencies": {
+    "@gorhom/bottom-sheet": "catalog:peer",
+    "@shopify/react-native-skia": "catalog:peer",
+    "react-native-gesture-handler": "catalog:peer",
+    "react-native-reanimated": "catalog:peer",
+    "react-native-worklets": "catalog:peer",
+    "victory-native": "catalog:peer"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:",
+    "@babel/plugin-syntax-typescript": "catalog:",
+    "@callstack/repack": "catalog:",
+    "@react-native/babel-preset": "catalog:",
+    "@react-native/js-polyfills": "catalog:",
+    "@react-native/eslint-config": "catalog:",
+    "@react-native/typescript-config": "catalog:",
+    "@rspack/cli": "2.2.6",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "2.2.2",
+    "@swc/helpers": "catalog:",
+    "@types/react": "catalog:",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "eslint": "catalog:",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "postcss-react-strict-dom": "0.0.54",
+    "react-dom": "19.2.8",
+    "react-is": "^19.0.0",
+    "react-native-reanimated": "catalog:",
+    "react-native-worklets": "catalog:",
+    "react-strict-dom": "0.0.54",
+    "recharts": "^3.10.1",
+    "super-app-showcase-sdk": "catalog:",
+    "typescript": "catalog:"
+  }
+}

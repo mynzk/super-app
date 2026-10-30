@@ -1,0 +1,44 @@
+{
+  "name": "super-app-showcase-sdk",
+  "version": "0.0.2",
+  "description": "Dependency management & utils for the Super App Showcase",
+  "license": "MIT",
+  "homepage": "https://github.com/callstack/super-app-showcase",
+  "repository": "github:callstack/super-app-showcase",
+  "main": "index.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "react-native": "./src/index.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "android",
+    "ios",
+    "lib",
+    "src",
+    "index.js",
+    "preset.js"
+  ],
+  "devDependencies": {
+    "@swc/helpers": "catalog:",
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "react-router-dom": "catalog:",
+    "react-strict-dom": "0.0.54",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:peer",
+    "react-native": "catalog:peer",
+    "react-native-reanimated": "catalog:peer"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

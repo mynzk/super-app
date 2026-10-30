@@ -1,0 +1,175 @@
+{
+  "id": "wallet",
+  "name": "wallet",
+  "metaData": {
+    "name": "wallet",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "wallet"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "wallet",
+    "pluginVersion": "2.9.1",
+    "publicPath": "http://localhost:9202/"
+  },
+  "shared": [
+    {
+      "id": "wallet:react-dom",
+      "name": "react-dom",
+      "version": "19.2.8",
+      "singleton": true,
+      "requiredVersion": "^19.2.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-dom_19_2_8_react_19_2_8_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "wallet:react-router-dom",
+      "name": "react-router-dom",
+      "version": "7.18.5",
+      "singleton": true,
+      "requiredVersion": "^7.18.5",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-router-dom_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8-b1f2ee.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "wallet:react-router",
+      "name": "react-router",
+      "version": "7.18.5",
+      "singleton": true,
+      "requiredVersion": "^7.18.5",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_node_module-5d7a220.js",
+            "node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_node_module-5d7a221.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "wallet:react-strict-dom",
+      "name": "react-strict-dom",
+      "version": "0.0.54",
+      "singleton": true,
+      "requiredVersion": "^0.0.54",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-9a1dd7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "wallet:react",
+      "name": "react",
+      "version": "19.2.8",
+      "singleton": true,
+      "requiredVersion": "^19.2.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "wallet:super-app-showcase-sdk",
+      "name": "super-app-showcase-sdk",
+      "version": "0.0.2",
+      "singleton": true,
+      "requiredVersion": "^0.0.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "sdk_src_index_ts.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "wallet:App",
+      "name": "App",
+      "assets": {
+        "js": {
+          "sync": [
+            "vendors-node_modules_pnpm_stylexjs_stylex_0_15_4_node_modules_stylexjs_stylex_lib_es_stylex_m-4b931a.js",
+            "src_navigation_MainNavigator_tsx.js",
+            "__federation_expose_App.js"
+          ],
+          "async": [
+            "vendors-node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_nod-46f8d3.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_App.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./App"
+    }
+  ]
+}

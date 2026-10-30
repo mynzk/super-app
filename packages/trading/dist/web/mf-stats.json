@@ -1,0 +1,202 @@
+{
+  "id": "trading",
+  "name": "trading",
+  "metaData": {
+    "name": "trading",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "trading"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "trading",
+    "pluginVersion": "2.9.1",
+    "publicPath": "http://localhost:9201/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^19.2.8",
+      "shareScope": "default",
+      "eager": false,
+      "version": "19.2.8",
+      "name": "react-dom",
+      "id": "trading:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-dom_19_2_8_react_19_2_8_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.18.5",
+      "shareScope": "default",
+      "eager": false,
+      "version": "7.18.5",
+      "name": "react-router-dom",
+      "id": "trading:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-router-dom_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8-b1f2ee.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.18.5",
+      "shareScope": "default",
+      "eager": false,
+      "version": "7.18.5",
+      "name": "react-router",
+      "id": "trading:react-router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_node_module-5d7a220.js",
+            "node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_node_module-5d7a221.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.54",
+      "shareScope": "default",
+      "eager": false,
+      "version": "0.0.54",
+      "name": "react-strict-dom",
+      "id": "trading:react-strict-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-9a1dd7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.2.8",
+      "shareScope": "default",
+      "eager": false,
+      "version": "19.2.8",
+      "name": "react",
+      "id": "trading:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.2",
+      "shareScope": "default",
+      "eager": false,
+      "version": "0.0.2",
+      "name": "super-app-showcase-sdk",
+      "id": "trading:super-app-showcase-sdk",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "sdk_src_index_ts.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./App",
+      "id": "trading:App",
+      "name": "App",
+      "requires": [],
+      "file": "src/navigation/RemoteApp.web.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "vendors-node_modules_pnpm_stylexjs_stylex_0_15_4_node_modules_stylexjs_stylex_lib_es_stylex_m-4b931a.js",
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-e4e734.js",
+            "src_navigation_MainNavigator_tsx.js",
+            "__federation_expose_App.js"
+          ],
+          "async": [
+            "vendors-node_modules_pnpm_react-router_7_18_5_react-dom_19_2_8_react_19_2_8__react_19_2_8_nod-46f8d3.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_App.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}

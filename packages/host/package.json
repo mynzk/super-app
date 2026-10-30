@@ -1,0 +1,97 @@
+{
+  "name": "host",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android --no-packager",
+    "ios": "react-native run-ios --no-packager",
+    "start": "NODE_OPTIONS=--disable-warning=DEP0155 react-native start",
+    "web": "rspack serve -c rspack.web.config.mjs",
+    "web:build": "rspack build -c rspack.web.config.mjs",
+    "test": "jest",
+    "lint": "eslint .",
+    "typecheck": "tsc",
+    "bundle:ios": "react-native bundle --platform ios --entry-file index.js --dev false",
+    "bundle:android": "react-native bundle --platform android --entry-file index.js --dev false",
+    "pods": "(cd ios && bundle install && bundle exec pod install)",
+    "pods:update": "(cd ios && bundle exec pod update)",
+    "align-deps": "rnx-align-deps --write",
+    "check-deps": "pnpm --workspace-root check-deps"
+  },
+  "dependencies": {
+    "@bottom-tabs/react-navigation": "catalog:",
+    "@gorhom/bottom-sheet": "catalog:",
+    "@legendapp/list": "catalog:",
+    "@module-federation/enhanced": "catalog:",
+    "@module-federation/error-codes": "2.9.1",
+    "@react-native-async-storage/async-storage": "catalog:",
+    "@react-native-vector-icons/get-image": "catalog:",
+    "@react-native-vector-icons/material-design-icons": "catalog:",
+    "@react-navigation/native": "catalog:",
+    "@react-navigation/native-stack": "catalog:",
+    "@react-navigation/bottom-tabs": "catalog:",
+    "@shopify/react-native-skia": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "react-native-bootsplash": "7.3.3",
+    "react-native-bottom-tabs": "catalog:",
+    "react-native-edge-to-edge": "catalog:",
+    "react-native-gesture-handler": "catalog:",
+    "react-native-reanimated": "catalog:",
+    "react-native-safe-area-context": "catalog:",
+    "react-native-screens": "catalog:",
+    "react-native-worklets": "catalog:",
+    "react-router-dom": "catalog:",
+    "victory-native": "catalog:"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:",
+    "@babel/plugin-syntax-typescript": "catalog:",
+    "@babel/preset-env": "catalog:",
+    "@babel/runtime": "catalog:",
+    "@callstack/repack": "catalog:",
+    "@callstack/repack-plugin-reanimated": "5.4.2",
+    "@react-native-community/cli": "catalog:",
+    "@react-native-community/cli-platform-android": "20.2.0",
+    "@react-native-community/cli-platform-ios": "20.2.0",
+    "@react-native/babel-preset": "catalog:",
+    "@react-native/eslint-config": "catalog:",
+    "@react-native/jest-preset": "0.87.1",
+    "@react-native/js-polyfills": "catalog:",
+    "@react-native/typescript-config": "catalog:",
+    "@rnx-kit/align-deps": "catalog:",
+    "@rspack/cli": "2.2.6",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "2.2.2",
+    "@swc/helpers": "catalog:",
+    "@types/jest": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-test-renderer": "catalog:",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "eslint": "catalog:",
+    "jest": "catalog:",
+    "prettier": "catalog:",
+    "react-dom": "19.2.8",
+    "react-strict-dom": "0.0.54",
+    "react-test-renderer": "catalog:",
+    "super-app-showcase-sdk": "catalog:",
+    "typescript": "catalog:"
+  },
+  "rnx-kit": {
+    "kitType": "app",
+    "alignDeps": {
+      "presets": [
+        "../sdk/preset"
+      ],
+      "requirements": [
+        "react-native@0.87.1"
+      ],
+      "capabilities": [
+        "super-app"
+      ]
+    }
+  }
+}
