@@ -1,0 +1,34 @@
+{
+  "name": "super-app-showcase",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=24.18.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "run:host:ios": "pnpm --filter host ios",
+    "run:host:android": "pnpm --filter host android",
+    "start": "mprocs -c mprocs/host.yaml",
+    "start:web": "mprocs -c mprocs/web.yaml",
+    "pods": "pnpm -r pods",
+    "pods:update": "pnpm -r pods:update",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "align-deps": "pnpm -r align-deps",
+    "check-deps": "pnpm install --lockfile-only --frozen-lockfile && pnpm peers check",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "dependencies": {
+    "babel-plugin-react-compiler": "^1.0.0",
+    "mprocs": "^0.9.6"
+  },
+  "devDependencies": {
+    "@prettier/plugin-oxc": "^0.2.3",
+    "prettier": "catalog:"
+  }
+}

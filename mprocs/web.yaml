@@ -1,0 +1,13 @@
+procs:
+  Host:
+    shell: pnpm --filter host web
+    stop: SIGKILL
+  Auth:
+    shell: pnpm --filter auth web
+    stop: SIGKILL
+  Trading:
+    shell: pnpm --filter trading web
+    stop: SIGKILL
+  Wallet:
+    shell: pnpm --filter wallet web
+    stop: SIGKILL
