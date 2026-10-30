@@ -1,0 +1,97 @@
+{
+  "id": "host",
+  "name": "host",
+  "metaData": {
+    "name": "host",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "phase0-h5"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "host",
+    "pluginVersion": "2.9.1",
+    "publicPath": "http://localhost:9100/"
+  },
+  "shared": [
+    {
+      "id": "host:react-dom",
+      "name": "react-dom",
+      "version": "19.2.8",
+      "singleton": true,
+      "requiredVersion": "19.2.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-dom_19_2_8_react_19_2_8_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "host:react-strict-dom",
+      "name": "react-strict-dom",
+      "version": "0.0.54",
+      "singleton": true,
+      "requiredVersion": "^0.0.54",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-30c0fa.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "host:react",
+      "name": "react",
+      "version": "19.2.8",
+      "singleton": true,
+      "requiredVersion": "19.2.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "wallet",
+      "moduleName": "Banner",
+      "alias": "wallet",
+      "entry": "http://localhost:9102/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}

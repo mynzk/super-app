@@ -1,0 +1,106 @@
+{
+  "id": "wallet",
+  "name": "wallet",
+  "metaData": {
+    "name": "wallet",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "phase0-h5"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "wallet",
+    "pluginVersion": "2.9.1",
+    "publicPath": "http://localhost:9102/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.54",
+      "shareScope": "default",
+      "name": "react-strict-dom",
+      "version": "0.0.54",
+      "eager": false,
+      "id": "wallet:react-strict-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-30c0fa.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Banner"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "19.2.8",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.2.8",
+      "eager": false,
+      "id": "wallet:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Banner"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Banner",
+      "id": "wallet:Banner",
+      "name": "Banner",
+      "requires": [
+        "react",
+        "react-strict-dom"
+      ],
+      "file": "src/mf/BannerRemote.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_jsx-runtime_js-node_modules_pnpm_st-6e1d78.js",
+            "__federation_expose_Banner.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

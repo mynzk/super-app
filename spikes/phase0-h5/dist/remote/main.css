@@ -1,0 +1,57 @@
+
+@layer priority1, priority2, priority3, priority4;
+@layer priority1{
+.margin-x1ghz6dp{margin:0}
+.padding-x1717udv{padding:0}
+.padding-xggk2y7{padding:24px}
+}
+@layer priority2{
+.borderRadius-x1kogg8i{border-radius:6px}
+.borderStyle-xng3xce{border-style:none}
+.borderStyle-x1y0btm7{border-style:solid}
+.borderWidth-xc342km{border-width:0}
+.borderWidth-xmkeg23{border-width:1px}
+.gap-xou54vl{gap:16px}
+.gap-x167g77z{gap:8px}
+.listStyle-xe8uvvx{list-style:none}
+.overflow-xysyzu8{overflow:auto}
+.paddingBlock-x1t0vds8{padding-block:6px}
+.paddingBlock-x1vvogim{padding-block:8px}
+.paddingInline-xaope02{padding-inline:12px}
+.paddingInline-x1hr3lfm{padding-inline:16px}
+.textDecoration-x1hl2dhg{text-decoration:none}
+}
+@layer priority3{
+.alignItems-x6s0dn4{align-items:center}
+.aspectRatio-xuw900x{aspect-ratio:attr(width)  / attr(height)}
+.backgroundColor-xa9pask{background-color:#131416}
+.backgroundColor-x1ljod59{background-color:#2a2d31}
+.backgroundColor-x11u7mec{background-color:#3a3d41}
+.backgroundColor-x42x0ya{background-color:black}
+.boxSizing-x9f619{box-sizing:border-box}
+.color-xrjvjsr{color:#6ab04c}
+.color-x7ffntk{color:#9aa0a6}
+.color-x19xk1mj{color:#e8eaed}
+.cursor-x1ypdohk{cursor:pointer}
+.display-x78zum5{display:flex}
+.flexDirection-xdt5ytf{flex-direction:column}
+.flexDirection-x1q0g3np{flex-direction:row}
+.fontFamily-x1lxnp44{font-family:monospace,"monospace"}
+.fontFamily-x1p7i66b{font-family:system-ui,sans-serif}
+.fontSize-xngnso2{font-size:1.5rem}
+.fontSize-xfifm61{font-size:12px}
+.fontSize-x4z9k3i{font-size:13px}
+.fontSize-xrv4cvt{font-size:1em}
+.fontSize-xwsyq91{font-size:20px}
+.fontWeight-x117nqv4{font-weight:bold}
+.resize-x288g5{resize:vertical}
+.textAlign-x16tdsg8{text-align:inherit}
+.wordWrap-x1vvkbs{word-wrap:break-word}
+}
+@layer priority4{
+.height-xjm9jq1{height:1px}
+.height-xt7dq6l{height:auto}
+.maxWidth-x193iq5w{max-width:100%}
+.minHeight-xg6iff7{min-height:100vh}
+}
+

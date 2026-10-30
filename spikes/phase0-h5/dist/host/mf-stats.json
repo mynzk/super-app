@@ -1,0 +1,113 @@
+{
+  "id": "host",
+  "name": "host",
+  "metaData": {
+    "name": "host",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "phase0-h5"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "host",
+    "pluginVersion": "2.9.1",
+    "publicPath": "http://localhost:9100/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "19.2.8",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.2.8",
+      "eager": false,
+      "id": "host:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-dom_19_2_8_react_19_2_8_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.54",
+      "shareScope": "default",
+      "name": "react-strict-dom",
+      "version": "0.0.54",
+      "eager": false,
+      "id": "host:react-strict-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-strict-dom_0_0_54_postcss_8_5_32_react-dom_19_2_8_react_19_2_-30c0fa.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "19.2.8",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.2.8",
+      "eager": false,
+      "id": "host:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_19_2_8_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "wallet",
+      "consumingFederationContainerName": "host",
+      "federationContainerName": "wallet",
+      "moduleName": "Banner",
+      "usedIn": [
+        "src/mf/host.bootstrap.tsx"
+      ],
+      "entry": "http://localhost:9102/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}

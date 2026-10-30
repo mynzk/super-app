@@ -1,0 +1,35 @@
+{
+  "name": "phase0-h5",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Phase 0 throwaway spike: prove RSD + Rspack + Module Federation on web. Delete after go/no-go.",
+  "type": "module",
+  "scripts": {
+    "serve:banner": "rspack serve -c rspack.banner.config.mjs",
+    "build:banner": "rspack build -c rspack.banner.config.mjs",
+    "build:remote": "rspack build -c rspack.remote.config.mjs",
+    "serve:remote": "rspack serve -c rspack.remote.config.mjs",
+    "serve:host": "rspack serve -c rspack.host.config.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-strict-dom": "0.0.54"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@module-federation/enhanced": "2.9.1",
+    "@rspack/cli": "2.2.6",
+    "@rspack/core": "2.2.6",
+    "@rspack/dev-server": "2.2.2",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "postcss-react-strict-dom": "0.0.54",
+    "puppeteer-core": "23.11.1",
+    "typescript": "^5.7.2"
+  }
+}
